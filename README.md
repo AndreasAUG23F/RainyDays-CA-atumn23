@@ -1,12 +1,12 @@
-##Project Title
+# #Project Title
     Rainy Days
 
-##Project Description
+# #Project Description
     Rainy Days is a website created as part of my HTML & CSS course in the front-end development program at Noroff school of Technology and digital media. 
     The site is designed to sell high-quality outdoor clothing specifically tailored for enthusiasts who enjoy adventures in the rain. 
     This project marked my first foray into web development using HTML and CSS, making it an exciting and invaluable learning experience.
 
-##Project Details
+# #Project Details
     The Rainy Days project aims to provide a seamless and enjoyable shopping experience for outdoor enthusiasts. Key features and objectives include:
 
     Responsive Design: Ensuring the website is accessible and visually appealing across all devices, including desktops, tablets, and smartphones.
@@ -14,11 +14,11 @@
     Comprehensive Product Pages: Developing detailed product pages featuring images, descriptions, and pricing information to showcase the range of outdoor clothing available.
     Interactive User Experience: Incorporating interactive elements such as hover effects and clickable buttons to enhance user engagement and overall experience.
 
-## Built with
+# # Built with
     -HTML
     -CSS
 
-##Getting Started
+# #Getting Started
     Installing
         To get started with the Rainy Days project, follow these steps:
 
@@ -28,13 +28,13 @@
         2.Install the dependencies:
             npm install
 
- ##Running
+ # #Running
      To run the app, use the following command:
 
          npm run start
 
 
-##Contributing
+# #Contributing
     Contributions are welcome! If you would like to contribute to the Rainy Days project, please follow these guidelines:
 
     Fork the repository and create your branch from main.
@@ -42,7 +42,7 @@
     Ensure the code is properly formatted and adheres to the project's coding standards.
     Open a pull request to the main branch for review.
 
-## CONTACT
+# # CONTACT
     MAIL: abrahamsen.andreas@gmail.com
     LINKEDIN: https://www.linkedin.com/in/andreas-abrahamsen-450292133/
 
