@@ -1,0 +1,80 @@
+footer {
+  background-color: #0A3641;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Endret fra "center" til "space-between" for å plassere elementene til venstre og høyre */
+  align-items: center;
+  padding: 0px;
+}
+
+.footer-logo img {
+  max-width: 300px; 
+  display: block; 
+  margin-left: 5%;
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex; /* Endre til flex-container */
+  justify-content: center; /* Sentrer ikonene horisontalt */
+  align-items: center; /* Sentrer ikonene vertikalt */
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Fjern margin for å unngå uønsket mellomrom */
+}
+
+.footer-icons svg {
+  width: 30px; /* Angi ønsket bredde for ikonene */
+  height: 30px; /* Angi ønsket høyde for ikonene */
+  margin: 0 10px; /* Legg til mellomrom mellom ikonene */
+}
+
+
+@media screen and (max-width: 950px) {
+  .footer-icons {
+    flex-direction: row; 
+    justify-content: space-between; 
+  }
+
+  .footer-icons svg {
+    width: 30px; /* Angi ønsket bredde for ikonene */
+    height: 30px; /* Angi ønsket høyde for ikonene */
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footer-logo img {
+    width: 100px
+  }
+  .footer-icons {
+    flex-direction: row; 
+    justify-content: space-between; 
+  }
+
+  .footer-icons svg {
+    width: 30px; /* Angi ønsket bredde for ikonene */
+    height: 30px; /* Angi ønsket høyde for ikonene */
+  }
+}

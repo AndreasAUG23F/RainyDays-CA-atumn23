@@ -1,0 +1,519 @@
+@import url(../footer.css);
+@import url(../header.css);
+
+* {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.home-banner {
+    background: url(../../images-CA/rainydaysheader.jpg);
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+.header-container {
+    height: 100px
+}
+
+.header-ul {
+    border-bottom: #000 solid 3px;
+}
+
+.header-ul a {
+    font-size: 1vw;
+}
+
+.right-navbar svg {
+    fill: #000000;
+    position: relative;
+    display: block;
+    justify-content: space-between 10px;
+    width: auto;
+    height: 30px;
+    margin-top: 5%;
+}
+
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.alt-slogan-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.alt-slogan-container h1 {
+    font-size: 4vw;
+    font-weight: lighter;
+}
+
+.cta-men button {
+    position: absolute;
+    top: 150%;
+    right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+    border-top: 0%;
+    border-radius: 25px;
+    border: 0.2vw solid #000;
+    padding: 10px 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.cta-women button {
+    position: absolute;
+    top: 150%;
+    right: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+    border-top: 0%;
+    border-radius: 25px;
+    border: 0.2vw solid #000;
+    padding: 10px 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.explore-container::after {
+    content: "";
+    display: table-cell;
+    clear: both;
+}
+
+.explore-container img {
+    float: left;
+    width: 33.33%;
+    width: 33.33%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(80%);
+}
+
+
+.explore-container a {
+    position: absolute;
+    z-index: 2;
+    white-space: nowrap;
+    color: #fff;
+    text-shadow: #000;
+}
+
+.explore-container a:hover {
+    color: #000;
+    font-weight: bold;
+    font-size: 2.2vw;
+  }
+
+
+.hike-text {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    z-index: 2;
+    margin-right: 20px;
+    left: 10%;
+}
+
+
+
+a {
+    color: #fff;
+    font-size: 2vw;
+    text-decoration: none;
+
+}
+
+.bike-text {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    z-index: 2;
+    margin-right: 20px;
+    left: 40%;
+}
+
+
+
+a {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.ski-text {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    z-index: 2;
+    margin-right: 20px;
+    left: 75%;
+}
+
+
+
+a {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.premium-class {
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+.premium-left {
+    display: flex;
+    width: 100%;
+    position: relative;
+    max-width: 50%;
+    object-fit: cover;
+}
+
+.premium-left img {
+    width: 1350px;
+}
+
+.premium-right {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.premium-header h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    text-shadow: black 1px 2px 1px rgba(0, 0, 0, 0.7);
+    padding: 5%;
+}
+  
+.premium-text p {
+    font-size: 2vw;
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.premium-button button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+    border-top: 0%;
+    border-radius: 25px;
+    border: 0.4vw solid #000;
+    padding: 10px 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+  
+.premium-button  button:hover {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+.fashion-container{
+    display: flex;
+    justify-content: center;
+}
+.fashion-section{
+    width:100%;
+    height:auto;
+}
+.fashion-class {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.fashion-left{
+    max-width: 50%;
+    padding: 2%;
+    font-size: 2vw;
+}
+.fashion-text{
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fashion-right {
+    max-width: 50%;
+}
+.fashion-right img {
+    width: 950px;
+    height: auto;
+}
+
+.fashion-button button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background-color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+    border-top: 0%;
+    border-radius: 25px;
+    border: 0.4vw solid #000;
+    padding: 10px 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+  
+.fashion-button  button:hover {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width:1439x){
+    
+    .hike-text, .bike-text, .ski-text{
+        top: 60%;
+    }
+    
+    .explore-container a:hover {
+        color: #000;
+        font-weight: bold;
+        font-size: 3.2vw;
+    }
+    
+    .premium-header h1 {
+        font-size: 2,2vw;
+        margin-left: 0%;
+    }
+    .premium-text p {
+        font-size: 1,2vw;
+        margin-left: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .premium-button button {
+        font-size: 2vw;
+        font-weight: bold;
+        border-top: 0%;
+        border-radius: 25px;
+        border: 0.4vw solid #000;
+        padding: 10px 20px;
+        margin-left: 14%;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    
+    .premium-left img {
+      width: 400px !important;
+      
+      height: auto !important;
+    }
+    .fashion-right img {
+    width: 400px !important;
+    height: auto !important;
+    }
+
+
+
+}
+
+  @media screen and (max-width:1340px){
+
+     .hike-text, .bike-text, .ski-text{
+        top: 40%;
+    }
+
+    .explore-container img {
+        float: left;
+        height: auto;overflow-x: visible;
+    }
+  
+  .explore-container a:hover {
+      color: #000;
+      font-weight: bold;
+      font-size: 3.2vw;
+    }
+
+    .premium-left img {
+        width: 710px !important;
+        height: auto !important;
+      }
+  
+    .premium-header h1 {
+      font-size: 2vw;
+      margin-left: 0%;
+  }
+  .premium-text p {
+      font-size: 1,2vw;
+      margin-left: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .premium-button button {
+      font-size: 2vw;
+      font-weight: bold;
+      border-top: 0%;
+      border-radius: 25px;
+      border: 0.4vw solid #000;
+      padding: 10px 20px;
+      margin-left: 14%;
+      margin-top: 5%;
+      cursor: pointer;
+  }
+    
+  .fashion-right img {
+      width: 710px !important;
+      height: auto !important;
+    }
+  
+  
+  
+  }
+
+  @media screen and (max-width:996px){
+    .hike-text a, .bike-text a, .ski-text a {
+        margin-top: -40%;
+    }
+  }
+
+   @media screen and (max-width:440px){
+    hike-text, .bike-text, .ski-text{
+        top: 60%;
+    }
+    
+    .explore-container a:hover {
+        color: #000;
+        font-weight: bold;
+        font-size: 3.2vw;
+    }
+    
+    .premium-header h1 {
+        font-size: 2,2vw;
+        margin-left: 0%;
+    }
+    .premium-text p {
+        font-size: 1,2vw;
+        margin-left: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .premium-button button {
+        font-size: 2vw;
+        font-weight: bold;
+        border-top: 0%;
+        border-radius: 25px;
+        border: 0.4vw solid #000;
+        padding: 10px 20px;
+        margin-left: 14%;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    
+    .premium-left img {
+      width: 400px !important;
+      
+      height: auto !important;
+    }
+    .fashion-right img {
+    width: 400px !important;
+    height: auto !important;
+    }
+
+
+
+}
+
+  @media screen and (max-width:450px){
+
+     .hike-text, .bike-text, .ski-text{
+        top: 40%;
+    }
+
+    .explore-container img {
+        float: left;
+        height: auto;
+        width: 100px;
+    }
+  
+  .explore-container a:hover {
+      color: #000;
+      font-weight: bold;
+      font-size: 3.2vw;
+    }
+
+    .premium-left img {
+        width: 710px !important;
+        height: auto !important;
+      }
+  
+    .premium-header h1 {
+      font-size: 2vw;
+      margin-left: 0%;
+  }
+  .premium-text p {
+      font-size: 1,2vw;
+      margin-left: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .premium-button button {
+      font-size: 2vw;
+      border: 0.4vw solid #000;
+      margin-left: 14%;
+      margin-top: 5%;
+      cursor: pointer;
+  }
+    
+  .fashion-right img {
+      width: 710px !important;
+      height: auto !important;
+    }
+
+   }

@@ -1,0 +1,191 @@
+@import url(../header.css);
+@import url(../footer.css);
+@import url(../forms-test.html/forms.css);
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+h2, h1 {
+    font-size: 3vw;
+    color: gray;
+
+}
+
+.blackbox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.info-section {
+    max-width: 50%;
+    height: auto;
+}
+
+.summary-section {
+    max-width: 50%;
+    height: auto;
+}
+.check-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.check-icon svg {
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    fill: #77bb41;
+
+}
+
+.checkout-container {
+    display: block;
+    block-size: auto;
+    margin-left: 1%;
+
+}
+
+.checkout-header {
+    display: block;
+    left: 10%;
+}
+
+.checkout-header h2 {
+    font-size: 3vw;
+    color: gray;
+}
+
+.order-info p {
+    font-size: 2vw;
+    
+}
+
+.order-message {
+    font-size: 1.5vw;
+}
+
+.order-summary-container {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    margin-right: 5%;
+
+}
+
+.order-summary-container.mobile-view {
+    display: block;
+    margin-right: 0;
+}
+
+.subtotal-left, .subtotal-right, .delivery-left, .delivery-right, .total-left, .total-right, .arrival, .summary-image, .summary-bottom-right-top, .quantity, .size, .Subtotal-bottom {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 5px 0;
+}
+
+.arrival p {
+font-weight: bold;
+}
+
+.subtotal-left p {
+    font-weight: bold;
+    color: rgba(161, 161, 161, 1);
+}
+
+.summary-image img {
+    width: 100%;
+    height: auto;
+}
+
+.summary-bottom-right-top {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.order-info-container {
+    display: block;
+    block-size: auto;
+}
+
+.order-information {
+    margin-left: 1%;
+}
+
+.order-date p, .method p, .adress p, .credit-card p{
+    color:  rgba(161, 161, 161, 1);
+    margin-left: 1%;
+    margin-top: -1%;
+}
+
+.shipping-method p, .shipping-adress p, .payment-method p{
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.Inquiry-container, .forgot-container {
+    display: block;
+    block-size: auto;
+    margin-left: 1%;
+}
+
+.questions-order h1, .forgot-something h1 {
+    margin-left: 1%;
+}
+
+.contact-us p {
+    margin-left: 1%;
+}
+
+.checkout-success-bottom-image img {
+    width: 100%;
+    height: auto;
+}
+
+.forgot.cta button {
+    display: inline-block;
+    background-color: #77bb41;
+}
+/*.order-summary-container {
+    display: block;
+    float: right;
+    margin-right: 10%;
+    position: relative;
+}
+
+.subtotal-left p {
+    font-weight: bold;
+    color: rgba(161, 161, 161, 1);
+}
+
+.subtotal-right p {
+    display: block;
+    position: relative;
+    justify-content: right;
+    left: 30%;
+}*/
+
+@media screen and (max-width:850px){
+    .blackbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,196 @@
+@import url(../footer.css);
+@import url(../header.css);
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop-filter {
+    display: flex;
+    list-style: none;
+    gap: 15%;
+    color: black;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop-filter a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.filter-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(124, 129, 143, 0.12);
+    margin-top: 100px;
+}
+
+ .header-a:hover {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .header-a {
+    transition: background-color 0.3s, color 0,3s;
+    font-size: 2vw;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+.bottom-line {
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.top-line > p {
+    font-size: 1.2vw;
+    
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    column-gap: 2%;
+    margin-bottom: 15%;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: -10px;
+}
+
+.product-container  a {
+   background-color: rgba(124, 129, 143, 0.12)
+}
+
+.markje-text {
+        background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.sålefjell-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.oljå-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.fiskarkånå-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.slåvatn-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.rosje-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.fjedle-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.viddå-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.salvøy-text {
+    background-color:  rgba(217, 217, 217, 0.3);
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    gap: 2%;
+    margin-top: -8%;
+}
+
+
+.overlay-button {
+    position: absolute; /* Posisjonerer knappen absolutt inni beholderen */
+    top: 250%; /* Justerer vertikalt til midten av beholderen */
+    left: 13%; /* Justerer horisontalt til midten av beholderen */
+    z-index: 2; /* Angir en z-indeks for å plassere knappen over bildet */
+    background: #000000; /* Legg til ønsket bakgrunnsfarge */
+    color: #fff; /* Legg til ønsket tekstfarge */
+    padding: 10px 20px; /* Legg til ønsket padding for knappen */
+    border-radius: 25px;
+    border: 0.4vw solid #000;
+    cursor: pointer;
+  }
+  
+  .overlay-button:hover {
+    background-color: #ffffff; /* Endre bakgrunnsfargen ved hover (valgfritt) */
+    color: #000;
+    border-radius: 25px;
+    border: 0.4vw solid #000;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width:1440px){
+
+    .shop-filter {
+        display: flex;
+        list-style: none;
+        gap: 10%;
+        color: black;
+        margin-right: 10%;
+        
+      }
+
+  }
+
+  @media screen and (max-width: 987px){
+
+    .shop-filter {
+        gap: 7%;
+        color: black;
+        margin-right: 7%;
+        
+      }
+
+  }
+
+  @media screen and (max-width: 746px){
+
+    .shop-filter {
+        gap: 7%;
+        color: black;
+        margin-right: 7%;
+        
+      }
+
+  }
+  
+  @media screen and (max-width: 755px){
+
+    .shop-filter {
+        gap: 3%;
+        color: black;
+        margin-right: 7%;
+        
+      }
+
+  }
+
+  @media screen and (max-width: 587px){
+
+    .shop-filter {
+        gap: 5%;
+        color: black;
+        margin-right: 7%;
+        
+      }
+
+  }
+  

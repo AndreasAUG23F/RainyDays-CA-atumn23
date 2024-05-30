@@ -1,0 +1,310 @@
+@import url(shop-clean.css);
+@import url(../header.css);
+@import url(../footer.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.top-image { 
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 0%;
+    size: 150%;
+    height: 150%;
+    width: 100%;
+}
+
+.top-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.text-container-main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10%;
+    gap: 50%;
+    justify-content: space-between;
+    white-space: nowrap;
+    
+}
+
+h2 {
+    font-size: 4vw;
+    color: #fff;
+    width: auto;
+}
+
+.welcome-container {
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+
+.welcome-top {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-left: 4%;
+
+}
+
+.welcome-bottom {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: -1%;
+    margin-left: 4%;
+}
+
+h3 {
+    font-size: 3vw;
+    text-shadow: 2px 2px 5px #000
+}
+
+.welcome-bottom p {
+    font-size: 2vw;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px #000
+}
+
+.image-row-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+
+.image-row-container li {
+    list-style: none;
+}
+
+.image-row-container li img {
+    margin-right: 5px;
+    list-style: none;
+    height: auto;
+    width: 100%;
+}
+
+.text-section1{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-left: 4%;
+
+}
+
+.flavour-text {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: -1%;
+    margin-left: 2%;
+    
+}
+
+p {
+    font-size: 2vw;
+    border-bottom: #0000 solid 3px;
+}
+
+
+
+.quote-class {
+    border-bottom: #0000 solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credo-header {
+    border-bottom: #0000 solid 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.credo-header > h1 {
+    border-top: #0000 solid 5px;
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px #000
+}
+
+.credo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credo-text p {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+}
+
+
+.meet-header {
+    display: flex;
+    justify-content: center;
+    left: 50px;
+}
+
+.staff-header  {
+    position: relative;
+    border-top: rgba(204, 204, 204, 1) solid 3px ;
+    font-size: 4vw;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.staff-image {
+    display: grid;
+    justify-content: left;
+    position: relative;
+    left: -16%;
+    top: 15%;
+}
+
+.staff-image img {
+    padding-bottom: 15px;
+    width: 200px;
+}
+
+.staff-name {
+    position: absolute;
+    top: -10%;
+    left: 20%;
+}
+
+.staff-name h2 {
+    color: #000;
+    font-size: 4vw;
+    text-shadow: #000 solid 1px 1px 1px;
+}
+
+.staff-title {
+    position: absolute;
+    top: 10%;
+    left: 24%;
+}
+
+.staff-title h3 {
+    font-size: 1.6vw;
+    color: lightslategray;
+    text-shadow: none;
+}
+
+.staff-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: -15%;
+    padding-bottom: 20px;
+}
+ .staff-info p {
+    font-size: 1.5vw;
+    padding-top: 100px;
+
+ }
+
+ .continue-shopping {
+    display: inline-block; 
+    text-align: center; 
+    background: none; 
+    padding-bottom: 25px; 
+    border: none; 
+}
+
+.continue-shopping a {
+    display: inline-block; 
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+    border: #000 solid 3px; 
+    width: 300px;
+    font-size: 2vw;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:982px){
+    .staff-image img {
+        padding-bottom: 15px;
+        width: 150px;
+    }
+
+    .staff-info p {
+        font-size: 1.0vw;
+        padding-top: 70px;
+    
+     }
+
+     .staff-info {
+        margin-left: -15%;
+        padding-bottom: 20px;
+    }
+
+    .staff-name h2 {
+        font-size: 3vw;
+        padding-left: 100px;
+    }
+
+    .staff-title {
+        padding-left: 70px;
+    }
+  
+  }
+
+
+  @media screen and (max-width:554px){
+    .staff-image img {
+        padding-bottom: 15px;
+        width: 100px;
+    }
+
+    .staff-info p {
+        font-size: 1.0vw;
+        padding-top: 40px;
+    
+     }
+
+     .staff-info {
+        margin-left: -15%;
+        padding-bottom: 20px;
+    }
+
+    .staff-name h2 {
+        font-size: 3vw;
+        padding-left: 70px;
+    }
+
+    .staff-title {
+        padding-left: 50px;
+    }
+    .credo-text p {
+        line-height: 20px;
+    }
+  
+  }
